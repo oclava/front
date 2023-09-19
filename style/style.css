@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body{
+    color: rgb(246, 246, 246);
+    background-color:black;
+}
+header{
+    color: black;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 91, 91);
+}
+.titulo_cabecalho{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#titulo2{
+    color: blue;
+}
+
+section{
+    background-color:rgb(41, 155, 255) ;
+    height: 90vh;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+footer{
+    height: 20vh;
+}
+
+.secao1e3{
+    background-color: blueviolet;
+}
