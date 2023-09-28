@@ -1,0 +1,19 @@
+.navbar{
+
+    height: 10vh;
+}
+.nav-item{
+    font-size: 1.2em;
+}
+.col-6{
+
+}
+
+@media screen and (max-width: 991px){
+    .minhaClasse{
+    margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 600px){
+    
+}

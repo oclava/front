@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+
+}
+@font-face {
+    font-family: Nav;
+    src: url(font/SuperBoys.ttf);
+}
+@font-face {
+    font-family: Diferente;
+    src: url(font/ToonyLine_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: Card;
+    src: url(font/kenyan\ coffee\ rg.otf);
+}
+body{
+    background-color: #222222;
+}
+#header_home{
+    width: 100%;
+    height: 15vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header_nav{
+    display: flex;
+    width: 40%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    font-family: Nav;
+    font-size: 20px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #2E8A99;   
+}
+#section_banner{
+    height: 70vh;
+    width: 100%;
+}
+
+#section_cards{
+
+    height: 70vh;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card{
+    width: 30%;
+    height: 75%;
+    box-shadow: 0px 5px 10px #52525226;
+}
+
+.img_card{
+    background-color: #2E8A99;
+    height: 70%;
+    width: 100%;
+
+}
+
+.texto_card{
+    height: 30%;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+.texto_card_titulo{
+    font-family: Card;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.texto_card_paragrafo{
+    padding-top: 10px;
+    font-size: 1em;
+}
+#secao3{
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#texto_secao3{
+    color: #ffffff;
+
+    width: 50%;
+    height: 80%;
+    text-align: center;
+}
+
+#imagem_secao3{
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 80%;
+}
+#titulo_secao3{
+    font-family: diferente;
+    font-size: 4em;
+    margin-top: 15%;
+}
+
+#p_secao3{
+    margin-top: 5%;
+    font-size: 1.5em;
+
+}
+
+hr{
+    border: 1px solid #2E8A99;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 20vh;
+}
